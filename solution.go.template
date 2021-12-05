@@ -1,0 +1,28 @@
+package main
+
+import (
+	"bufio"
+
+	"github.com/jacksehr/advent/utils"
+)
+
+func main() {
+	half := utils.ParseArgs()
+
+	scanner := utils.ScanFile("inputs/2.input")
+
+	switch *half {
+	case "first":
+		solveFirstHalf(scanner)
+	case "second":
+		solveSecondHalf(scanner)
+	}
+}
+
+func solveFirstHalf(scanner *bufio.Scanner) {
+
+}
+
+func solveSecondHalf(scanner *bufio.Scanner) {
+
+}
